@@ -53,8 +53,19 @@ nvim_tree.setup {
       error = "",
     },
   },
+  filters = {
+    dotfiles = false,
+    custom = {},
+    exclude = {},
+  },
+  git = {
+    enable = true,
+    ignore = false,
+    show_on_dirs = true,
+    timeout = 400,
+  },
   view = {
-    width = 30,
+    width = 45,
     side = "left",
     mappings = {
       list = {

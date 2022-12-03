@@ -11,7 +11,6 @@ telescope.setup {
     prompt_prefix = " ",
     selection_caret = " ",
     path_display = { "smart" },
-    file_ignore_patterns = { ".git/", "node_modules" },
 
     mappings = {
       i = {
@@ -22,4 +21,9 @@ telescope.setup {
       },
     },
   },
+  pickers = {
+    find_files = {
+      find_command = { 'rg', '--files', '--no-ignore-vcs', '--hidden' },
+    }
+  }
 }
