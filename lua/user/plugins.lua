@@ -60,7 +60,6 @@ return packer.startup(function(use)
   use { "akinsho/toggleterm.nvim" }
   use { "ahmedkhalf/project.nvim" }
   use { "lewis6991/impatient.nvim" }
-  use { "lukas-reineke/indent-blankline.nvim" }
   use { "goolord/alpha-nvim" }
   use { "kyoh86/vim-ripgrep"}
   use { "junegunn/fzf.vim" }
